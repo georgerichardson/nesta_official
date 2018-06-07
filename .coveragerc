@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/nesta_official
+   */site-packages/nesta_official
+
+[run]
+branch = true
+source =
+    nesta_official
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
